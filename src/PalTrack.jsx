@@ -20,7 +20,7 @@ const TOWERS = [
 ];
 
 const ALPHAS = [
-  // Palpagos (44)
+  // Palpagos (45)
   { key:"alpha_chillet",         pal:"Chillet",          title:"Dancer of the Plains",            lv:11, type:"Ice/Dragon",     location:"Bamboo Grove" },
   { key:"alpha_gumoss",          pal:"Gumoss",           title:"Suddenly Transformed",            lv:11, type:"Grass/Ground",   location:"Verdant Brook" },
   { key:"alpha_sweepa",          pal:"Sweepa",           title:"Majesty of Fuzz",                 lv:11, type:"Ice",            location:"Marsh Island" },
@@ -33,6 +33,7 @@ const ALPHAS = [
   { key:"alpha_bushi",           pal:"Bushi",            title:"Vagrant Warrior",                 lv:23, type:"Fire",           location:"Sealed Realm of the Swordmaster" },
   { key:"alpha_felbat",          pal:"Felbat",           title:"Gloom-shrouded Bloodsucker",      lv:23, type:"Dark",           location:"Sealed Realm of the Abyssal Nights" },
   { key:"alpha_katress",         pal:"Katress",          title:"Phantasmal Feline",               lv:23, type:"Dark",           location:"Sealed Realm of the Invincible" },
+  { key:"alpha_foxcicle",        pal:"Foxcicle",         title:"—",                               lv:15, type:"Ice",            location:"Sealed Realm of the Invincible" },
   { key:"alpha_kingpaca",        pal:"Kingpaca",         title:"Supreme Fluff Commander",         lv:23, type:"Neutral",        location:"Open World" },
   { key:"alpha_quivern",         pal:"Quivern",          title:"Wings of White",                  lv:23, type:"Dragon",         location:"Sealed Realm of the Winged Tyrant" },
   { key:"alpha_fenglope",        pal:"Fenglope",         title:"Drifting Cloud",                  lv:25, type:"Neutral",        location:"Open World" },
@@ -119,10 +120,10 @@ const ALPHAS = [
 ];
 
 const ALPHA_REGIONS = {
-  "Palpagos": ALPHAS.slice(0, 44).map(a => a.key),
-  "Sakurajima": ALPHAS.slice(44, 46).map(a => a.key),
-  "Feybreak": ALPHAS.slice(46, 69).map(a => a.key),
-  "Tides of Terraria": ALPHAS.slice(69, 73).map(a => a.key),
+  "Palpagos": ALPHAS.slice(0, 45).map(a => a.key),
+  "Sakurajima": ALPHAS.slice(45, 47).map(a => a.key),
+  "Feybreak": ALPHAS.slice(47, 70).map(a => a.key),
+  "Tides of Terraria": ALPHAS.slice(70, 74).map(a => a.key),
   "Sunreach": ["alpha_ophydia","alpha_snock","alpha_eidrolon","alpha_dynamoff","alpha_flaracle","alpha_wistella","alpha_slowatt"],
   "World Tree": ["alpha_mycora","alpha_moldron_cryst","alpha_renjishi","alpha_aegidron","alpha_celesidr_noct"],
   "Nouveaux 1.0": ["alpha_prixter_lux","alpha_dualith","alpha_dualith_noct","alpha_pierdon","alpha_tetroise","alpha_tetroise_primo"],
