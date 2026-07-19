@@ -20,7 +20,7 @@ const TOWERS = [
 ];
 
 const ALPHAS = [
-  // Palpagos (45)
+  // Palpagos (47)
   { key:"alpha_chillet",         pal:"Chillet",          title:"Dancer of the Plains",            lv:11, type:"Ice/Dragon",     location:"Bamboo Grove" },
   { key:"alpha_gumoss",          pal:"Gumoss",           title:"Suddenly Transformed",            lv:11, type:"Grass/Ground",   location:"Verdant Brook" },
   { key:"alpha_sweepa",          pal:"Sweepa",           title:"Majesty of Fuzz",                 lv:11, type:"Ice",            location:"Marsh Island" },
@@ -31,6 +31,7 @@ const ALPHAS = [
   { key:"alpha_nitewing",        pal:"Nitewing",         title:"Wings of the Firmament",          lv:18, type:"Neutral",        location:"Open World" },
   { key:"alpha_broncherry",      pal:"Broncherry",       title:"Winds of Spring",                 lv:23, type:"Grass",          location:"Open World" },
   { key:"alpha_bushi",           pal:"Bushi",            title:"Vagrant Warrior",                 lv:23, type:"Fire",           location:"Sealed Realm of the Swordmaster" },
+  { key:"alpha_arsox",           pal:"Arsox",            title:"—",                               lv:15, type:"Fire",           location:"Sealed Realm of the Swordmaster" },
   { key:"alpha_felbat",          pal:"Felbat",           title:"Gloom-shrouded Bloodsucker",      lv:23, type:"Dark",           location:"Sealed Realm of the Abyssal Nights" },
   { key:"alpha_katress",         pal:"Katress",          title:"Phantasmal Feline",               lv:23, type:"Dark",           location:"Sealed Realm of the Invincible" },
   { key:"alpha_foxcicle",        pal:"Foxcicle",         title:"—",                               lv:15, type:"Ice",            location:"Sealed Realm of the Invincible" },
@@ -47,6 +48,7 @@ const ALPHAS = [
   { key:"alpha_relaxaurus_lux",  pal:"Relaxaurus Lux",   title:"Gluttonous Thunder Dragon",       lv:31, type:"Electric/Dragon",location:"Sealed Realm of the Thunder Dragon" },
   { key:"alpha_univolt",         pal:"Univolt",          title:"Swift Deity",                     lv:31, type:"Electric",       location:"Sea Breeze Archipelago" },
   { key:"alpha_lunaris",         pal:"Lunaris",          title:"Extraterrestrial",                lv:32, type:"Ice",            location:"Sealed Realm of the Esoteric" },
+  { key:"alpha_caprity_noct_palpagos", pal:"Caprity Noct", title:"—",                              lv:23, type:"Dark",           location:"Sealed Realm of the Esoteric" },
   { key:"alpha_verdash",         pal:"Verdash",          title:"Gale of the Forest",              lv:35, type:"Grass",          location:"Sealed Realm of the Swift" },
   { key:"alpha_mammorest",       pal:"Mammorest",        title:"King of the Forest",              lv:38, type:"Grass",          location:"Grassy Behemoth Hills" },
   { key:"alpha_vaelet",          pal:"Vaelet",           title:"Voice of the Violets",            lv:38, type:"Grass",          location:"Sealed Realm of the Guardian" },
@@ -120,10 +122,10 @@ const ALPHAS = [
 ];
 
 const ALPHA_REGIONS = {
-  "Palpagos": ALPHAS.slice(0, 45).map(a => a.key),
-  "Sakurajima": ALPHAS.slice(45, 47).map(a => a.key),
-  "Feybreak": ALPHAS.slice(47, 70).map(a => a.key),
-  "Tides of Terraria": ALPHAS.slice(70, 74).map(a => a.key),
+  "Palpagos": ALPHAS.slice(0, 47).map(a => a.key),
+  "Sakurajima": ALPHAS.slice(47, 49).map(a => a.key),
+  "Feybreak": ALPHAS.slice(49, 72).map(a => a.key),
+  "Tides of Terraria": ALPHAS.slice(72, 76).map(a => a.key),
   "Sunreach": ["alpha_ophydia","alpha_snock","alpha_eidrolon","alpha_dynamoff","alpha_flaracle","alpha_wistella","alpha_slowatt"],
   "World Tree": ["alpha_mycora","alpha_moldron_cryst","alpha_renjishi","alpha_aegidron","alpha_celesidr_noct"],
   "Nouveaux 1.0": ["alpha_prixter_lux","alpha_dualith","alpha_dualith_noct","alpha_pierdon","alpha_tetroise","alpha_tetroise_primo"],
